@@ -39,4 +39,4 @@ jobs:
       - run:
           name: docker run
           command: |
-            docker run -p 8100:80 udagram-frontend:local
+            docker run -p 8100:80 udagram-frontend
