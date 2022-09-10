@@ -36,7 +36,7 @@ jobs:
             docker tag udagram-frontend $DOCKER_HUB_USER_ID/udagram-frontend:local
             docker push $DOCKER_HUB_USER_ID/udagram-frontend:v1
             docker push $DOCKER_HUB_USER_ID/udagram-frontend:local
-      - run:
-          name: docker run
-          command: |
-            docker run -p 8100:80 udagram-frontend
+      # - run:
+      #     name: docker run
+      #     command: |
+      #       docker run -p 8100:80 udagram-frontend
